@@ -1,0 +1,16 @@
+multitenancy:
+   tenants:
+     - 
+       name: label4Db1
+       default: true
+       url: jdbc:mysql://localhost:3306/mydb1?serverTimezone=UTC
+       username: mydb1user
+       password: mydb1user
+       driver-class-name: com.mysql.jdbc.Driver
+     - 
+       name: label4Db2
+       default: false
+       url: jdbc:mysql://localhost:3306/mydb2?serverTimezone=UTC
+       username: mydb2user
+       password: mydb2user
+       driver-class-name: com.mysql.jdbc.Driver   
